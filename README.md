@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/gologhttpbinary.svg)](https://github.com/UnitVectorY-Labs/gologhttpbinary/releases/latest) [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
+
 # gologhttpbinary
 
 A lightweight HTTP server that logs HTTP requests, including the body encoded in base64, enabling logging of binary payloads.
