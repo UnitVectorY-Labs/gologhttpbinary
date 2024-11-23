@@ -51,7 +51,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	// Respond to the client
 	w.WriteHeader(http.StatusOK)
-	_, _ = w.Write([]byte("Request logged\n"))
+	_, _ = w.Write([]byte("OK\n"))
 }
 
 func main() {
