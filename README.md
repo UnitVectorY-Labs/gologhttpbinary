@@ -12,6 +12,16 @@ This application captures all incoming HTTP requests and logs the path, headers,
 
 **Should I run this in production?** Absolutely not! This could expose sensitive information passed in the body or headers of the request.
 
+## Usage
+
+The latest gologhttpbinary Docker image is available for deployment from GitHub Packages at [gologhttpbinary on GitHub Packages](https://github.com/UnitVectorY-Labs/gologhttpbinary/pkgs/container/gologhttpbinary).
+
+You can easily deploy this application locally to test it out with the following command:
+
+```bash
+docker run -p 8080:8080 ghcr.io/unitvectory-labs/gologhttpbinary:v0.1.0
+```
+
 ## Example Log Output
 
 All responses from this server return an HTTP 200 status code with a body of `OK`.  This application is designed to log request payloads for inspection.
@@ -41,6 +51,3 @@ This application runs as a docker container and can utilize the following enviro
 
 - `PORT` - The port the application listens on. (default `8080`).
 
-## Get started
-
-Quickly get up and running by pulling the latest release from [gologhttpbinary on GitHub Packages](https://github.com/UnitVectorY-Labs/gologhttpbinary/pkgs/container/gologhttpbinary) and running it in your container environment of choice.
