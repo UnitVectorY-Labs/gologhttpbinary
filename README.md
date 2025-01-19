@@ -19,7 +19,7 @@ The latest gologhttpbinary Docker image is available for deployment from GitHub 
 You can easily deploy this application locally to test it out with the following command:
 
 ```bash
-docker run -p 8080:8080 ghcr.io/unitvectory-labs/gologhttpbinary:v0.1.0
+docker run -p 8080:8080 ghcr.io/unitvectory-labs/gologhttpbinary:v0.1.1
 ```
 
 ## Example Log Output
