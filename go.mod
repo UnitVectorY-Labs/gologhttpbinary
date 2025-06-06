@@ -1,3 +1,3 @@
 module github.com/UnitVectorY-Labs/gologhttpbinary
 
-go 1.24.3 // GOVERSION
+go 1.24.4 // GOVERSION
